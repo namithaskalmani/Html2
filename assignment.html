@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Assignment</title>
+    <style>
+        #one:hover{
+            background-color: darkcyan;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <form action="form3.html">
+        
+        <fieldset style="background-color: pink; width: 25%; font-family: cursive; color:blueviolet; margin:auto; border-radius: 30px;">
+
+       <legend style="font-family: fantasy; color: gray;">Personal Details</legend>
+
+        <div style="width: 100% ;">
+            <div style="width: 30%; float: left;">
+                <label for="fname"><b>First Name</b></label>
+            </div>
+            <div style="width: 70%; float: left;">
+                <input type="text" id="fname" name="fname">
+            </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%; ">
+            <div style="width: 30%; float: left;">
+                
+                <label for="mname"><b>Middle Name</b></label>
+                
+            </div>
+            <div style="width: 70%; float: left;">
+                <input type="text" id="mname" name="mname">
+            </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%;">
+            <div style="width: 30%; float: left;">
+                <label for="lname"><b>Last Name</b></label>
+            </div>
+            <div style="width: 70%; float: left;">
+                <input type="text" id="lname" name="lname">
+            </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%;">
+           <div style="width: 30%; float: left;">
+            <label for="email"><b>Email</b></label> 
+           </div>
+           <div style="width: 70%; float: left;">
+            <input type="email" id="email" name="email">
+           </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%; ">
+            <div style="width: 30%; float: left;">
+                <label for="dob"><b>DOB</b></label>
+            </div>
+            <div style="width: 70%; float: left;">
+                <input type="date" id="dob" name="dob">
+            </div>
+
+        </div>
+        </fieldset>
+
+
+        <fieldset style="background-color: pink; width: 25%; font-family: cursive; color:blueviolet; margin: auto; border-radius: 30px;">
+
+            <legend style="font-family:fantasy; color: gray;">Educational Details</legend>
+
+            <label for="department"><b>Department</b></label>
+            <br><br>
+            
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+
+            <input type="radio" id="ec" name="dept">
+            <label for="ec">EC</label>
+
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label>
+            <br><br>
+
+            <div style="width: 100%;">
+                <div style="width: 30%;float: left;">
+                    <label for="yogg"><b>YOG</b></label>
+                </div>
+                <div style="width: 70%; float: left;">
+                    <input list="yog" id="yogg" name="yog">
+                </div>
+            </div>
+
+            <datalist id="yog">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+
+            <br><br>
+             
+            <div style="width: 100%;">
+                <div style="width: 30%; float: left;">
+                    <label for=""><b>SKILLS</b></label>
+                </div>
+                <div style="width: 70%; float: left;">
+                    
+                </div>
+            </div>
+            <br><br>
+
+            <input type="checkbox" id="Java" name="skill">
+                <label for="Java">Java</label> 
+                <br><br>   
+                
+                <input type="checkbox" id="MySQL" name="skill">
+                <label for="MySQL">MySQL</label>  
+                <br><br>   
+
+                <input type="checkbox" id="HTML" name="skill">
+                <label for="HTML">HTML</label>  
+                <br><br>    
+
+                <input type="checkbox" id="Data Structures" name="skill">
+                <label for="Data Structures">Data Structures</label> 
+                <br><br>     
+        </fieldset>
+        <br>
+    
+        <input type="submit" id="one" style="text-align: center; margin-left: 48%;">
+    </form>
+    
+</body>
+</html>
